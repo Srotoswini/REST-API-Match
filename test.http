@@ -1,0 +1,27 @@
+GET http://localhost:5001/matches
+
+###
+
+POST http://localhost:5001/matches
+Content-Type: application/json 
+
+{
+    "name": "Eren",
+    "age": "20",
+    "zodiac": "Aries"
+}
+
+###
+
+PATCH http://localhost:5001/matches/61f3b7da3a80826a74ad7273
+Content-Type: application/json
+
+{
+     "name": "Mikasa",
+     "age": "20",
+     "zodiac": "Scorpio"
+}
+
+###
+
+DELETE  http://localhost:localhost:5001/matches/61f3b8513a80826a74ad7277
